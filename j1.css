@@ -1,0 +1,125 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+   color:#C3F3C0 ;
+   margin: 0;
+   padding: 0;
+}
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+img{
+    border-radius: 10%;
+    height:160px;
+    width:160px;
+}
+nav{
+    background-color:#0c7489;
+    padding:20px 0;
+    position:sticky;
+    top:0;
+}
+nav h1{
+    margin:0;
+    display:inline;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: inline;
+    color: azure;
+
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    color: azure;
+}
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: #5C9EAD;
+    color: azure;
+}
+header{
+    background-color: #119da4;
+    padding: 30px 0;
+}
+.pr{
+    display:flex;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    border: 5px solid #4F3824;
+    margin-right: 20px;
+
+}
+.pr1{
+    flex: 1;
+
+}
+main{
+    padding: 20px 0;
+}
+section{
+    margin-bottom:40px;
+}
+section h2{
+    color:black;
+
+}
+#contact{
+background-color: rgb(73, 85, 88);
+padding:10px;
+text-align: center;
+}
+.cl0{
+    margin-bottom: 10px;
+
+}
+.cl{
+    color: chartreuse;
+}
+.cl p{
+    margin-bottom: 0;
+
+
+}
+.cl ul{
+    list-style: none;
+    padding: 0;
+}
+.cl ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.shradha{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+}
+.shradha:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.snap{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+}
+.snap:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
