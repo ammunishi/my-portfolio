@@ -1,1 +1,1 @@
-open j1.html
+open index.html
